@@ -14,6 +14,8 @@ ruff --isolated . --select UP,F401 --fix
 
 Still need to confirm that all useful features can be inferred from these files. Some intermediate steps may be lost but useful.
 
+Complete SQLAlchemy tutorials [[1]](https://docs.sqlalchemy.org/en/20/tutorial/index.html) [[2]](https://docs.sqlalchemy.org/en/20/orm/quickstart.html) to compare with SQLModel.
+
 ## Notes on SQLModel
 
 Provides [better editor support than SQLAlchemy](https://sqlmodel.tiangolo.com/tutorial/select/#sqlmodel-or-sqlalchemy-technical-details), with autocompletion and inline errors everywhere, even after getting data from a select.
